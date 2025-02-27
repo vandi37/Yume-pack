@@ -1,0 +1,25 @@
+{
+  "name": "yume",
+  "displayName": "Yume",
+  "description": "A language made by a 13 year old)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "yume",
+      "aliases": ["Yume", "yume"],
+      "extensions": [".yum"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "yume",
+      "scopeName": "source.yume",
+      "path": "./syntaxes/yume.tmLanguage.json"
+    }]
+  }
+}

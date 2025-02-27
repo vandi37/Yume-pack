@@ -1,0 +1,261 @@
+{
+	"name": "My Language",
+	"scopeName": "source.yume",
+	"fileTypes": [
+		"yum"
+	],
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"name": "string.quoted.double.yume",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.yume",
+					"match": "\\\\."
+				}
+			]
+		},
+		{
+			"name": "string.quoted.template.yume",
+			"begin": "`",
+			"end": "`",
+			"patterns": [
+				{
+					"name": "constant.character.escape.yume",
+					"match": "\\\\."
+				}
+			]
+		},
+		{
+			"name": "string.quoted.single.yume",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.yume",
+					"match": "\\\\."
+				}
+			]
+		},
+		{
+			"name": "keyword.operator.arithmetic.yume",
+			"match": "\\+|\\-|\\/|\\*|\\%"
+		},
+		{
+			"name": "keyword.operator.bitwise.yume",
+			"match": "&|\\||\\^|~|<<|>>"
+		},
+		{
+			"name": "keyword.operator.logical.yume",
+			"match": "&&|\\|\\||!"
+		},
+		{
+			"name": "keyword.operator.relational.yume",
+			"match": "!=|=="
+		},
+		{
+			"name": "keyword.operator.assignment.yume",
+			"match": "=|\\+=|\\-=|\\*=|\\/=|\\%=|\\+\\+|\\-\\-"
+		},
+		{
+			"name": "keyword.operator.misc.yume",
+			"match": "@"
+		},
+		{
+			"name": "constant.numeric.decimal.yume",
+			"match": "\\b\\d+(\\.\\d+)?\\b"
+		},
+		{
+			"name": "constant.numeric.binary.yume",
+			"match": "\\b0b[01]+(\\.[01]+)?\\b"
+		},
+		{
+			"name": "constant.numeric.octal.yume",
+			"match": "\\b0o[0-7]+(\\.[0-7]+)?\\b"
+		},
+		{
+			"name": "constant.numeric.hexadecimal.yume",
+			"match": "\\b0x[0-9a-fA-F]+(\\.[0-9a-fA-F]+)?\\b"
+		},
+		{
+			"name": "keyword.it.yume",
+			"match": "\\bit\\b"
+		},
+		{
+			"name": "keyword.object.yume",
+			"match": "\\bobject\\b"
+		},
+		{
+			"name": "keyword.struct.yume",
+			"match": "\\bstruct\\b"
+		},
+		{
+			"name": "keyword.abstract.yume",
+			"match": "\\babstract\\b"
+		},
+		{
+			"name": "keyword.modifier.dec.yume",
+			"match": "\\bdec\\b"
+		},
+		{
+			"name": "keyword.modifier.const.yume",
+			"match": "\\bconst\\b"
+		},
+		{
+			"name": "keyword.modifier.as.yume",
+			"match": "\\bas\\b"
+		},
+		{
+			"name": "keyword.modifier.out.yume",
+			"match": "\\bout\\b"
+		},
+		{
+			"name": "keyword.modifier.default.yume",
+			"match": "\\bdefault\\b"
+		},
+		{
+			"name": "keyword.modifier.must.yume",
+			"match": "\\bmust\\b"
+		},
+		{
+			"name": "keyword.modifier.fail.yume",
+			"match": "\\bfail\\b"
+		},
+		{
+			"name": "keyword.modifier.lay.yume",
+			"match": "\\blay\\b"
+		},
+		{
+			"name": "keyword.modifier.away.yume",
+			"match": "\\baway\\b"
+		},
+		{
+			"name": "keyword.modifier.to.yume",
+			"match": "\\bto\\b"
+		},
+		{
+			"name": "keyword.hoshi.yume",
+			"match": "\\bhoshi\\b"
+		},
+		{
+			"name": "keyword.modifier.zero.yume",
+			"match": "\\bzero\\b"
+		},
+		{
+			"name": "keyword.modifier.nya.yume",
+			"match": "\\bnya\\b"
+		},
+		{
+			"name": "keyword.modifier.void.yume",
+			"match": "\\bvoid\\b"
+		},
+		{
+			"name": "variable.language.self.yume",
+			"match": "\\bself\\b"
+		},
+		{
+			"name": "keyword.control.if.yume",
+			"match": "\\bif\\b"
+		},
+		{
+			"name": "keyword.control.else.yume",
+			"match": "\\belse\\b"
+		},
+		{
+			"name": "keyword.control.while.yume",
+			"match": "\\bwhile\\b"
+		},
+		{
+			"name": "keyword.control.repeat.yume",
+			"match": "\\brepeat\\b"
+		},
+		{
+			"name": "keyword.control.break.yume",
+			"match": "\\bbreak\\b"
+		},
+		{
+			"name": "keyword.control.continue.yume",
+			"match": "\\bcontinue\\b"
+		},
+		{
+			"name": "keyword.control.return.yume",
+			"match": "\\breturn\\b"
+		},
+		{
+			"name": "keyword.control.try.yume",
+			"match": "\\btry\\b"
+		},
+		{
+			"name": "entity.name.type.int.yume",
+			"match": "\\bint\\b"
+		},
+		{
+			"name": "entity.name.type.uint.yume",
+			"match": "\\buint\\b"
+		},
+		{
+			"name": "entity.name.type.char.yume",
+			"match": "\\bchar\\b"
+		},
+		{
+			"name": "entity.name.type.string.yume",
+			"match": "\\bstring\\b"
+		},
+		{
+			"name": "entity.name.type.neko.yume",
+			"match": "\\bneko\\b"
+		},
+		{
+			"name": "entity.name.type.koro.yume",
+			"match": "\\bkoro\\b"
+		},
+		{
+			"name": "entity.name.type.any.yume",
+			"match": "\\bany\\b"
+		},
+		{
+			"name": "entity.name.tag.type.yume",
+			"match": "\\btype\\b"
+		},
+		{
+			"name": "entity.name.type.float.yume",
+			"match": "\\bfloat\\b"
+		},
+		{
+			"name": "entity.name.type.bool.yume",
+			"match": "\\bbool\\b"
+		},
+		{
+			"name": "keyword.operator.colon.yume",
+			"match": ":"
+		},
+		{
+			"name": "keyword.operator.dot.yume",
+			"match": "."
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-exclamation.yume",
+					"match": "!!.*$"
+				},
+				{
+					"name": "comment.block.yum",
+					"begin": "!/",
+					"end": "/!",
+					"patterns": [
+						{
+							"include": "#comment-content"
+						}
+					]
+				}
+			]
+		}
+	}
+}
