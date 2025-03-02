@@ -6,7 +6,18 @@
 	],
 	"patterns": [
 		{
-			"include": "#comments"
+			"name": "comment.line.double-exclamation.yume",
+			"match": "!!.*$"
+		},
+		{
+			"name": "comment.block.yume",
+			"begin": "!/",
+			"end": "/!",
+			"patterns": [
+				{
+					"include": "#comment-content"
+				}
+			]
 		},
 		{
 			"name": "string.quoted.double.yume",
@@ -126,12 +137,8 @@
 			"match": "\\bfail\\b"
 		},
 		{
-			"name": "keyword.modifier.lay.yume",
-			"match": "\\blay\\b"
-		},
-		{
-			"name": "keyword.modifier.away.yume",
-			"match": "\\baway\\b"
+			"name": "keyword.modifier.adapt.yume",
+			"match": "\\badapt\\b"
 		},
 		{
 			"name": "keyword.modifier.to.yume",
@@ -146,7 +153,7 @@
 			"match": "\\bzero\\b"
 		},
 		{
-			"name": "keyword.modifier.nya.yume",
+			"name": "constant.language.nya.yume",
 			"match": "\\bnya\\b"
 		},
 		{
@@ -154,7 +161,7 @@
 			"match": "\\bvoid\\b"
 		},
 		{
-			"name": "variable.language.self.yume",
+			"name": "entity.name.tag.self.yume",
 			"match": "\\bself\\b"
 		},
 		{
@@ -214,8 +221,24 @@
 			"match": "\\bkoro\\b"
 		},
 		{
+			"name": "constant.language.true.yume",
+			"match": "\\btrue\\b"
+		},
+		{
+			"name": "constant.language.false.yume",
+			"match": "\\bfalse\\b"
+		},
+		{
 			"name": "entity.name.type.any.yume",
 			"match": "\\bany\\b"
+		},
+		{
+			"name": "entity.name.type.error.yume",
+			"match": "\\berror\\b"
+		},
+		{
+			"name": "entity.name.type.zeroize.yume",
+			"match": "\\bzeroize\\b"
 		},
 		{
 			"name": "entity.name.tag.type.yume",
@@ -230,6 +253,28 @@
 			"match": "\\bbool\\b"
 		},
 		{
+			"name": "support.type.import.yume",
+			"match": "([A-Za-z_]([A-Za-z0-9_]+)?)(\\.\\.)",
+			"captures": {
+				"1": {
+					"name": "support.type.import.yume"
+				}
+			}
+		},
+		{
+			"name": "entity.name.function.call.yume",
+			"match": "([A-Za-z_]([A-Za-z0-9_]+)?)\\(",
+			"captures": {
+				"1": {
+					"name": "entity.name.function.call.yume"
+				}
+			}
+		},
+		{
+			"name": "variable.parameter.other.yume",
+			"match": "\\b[A-Za-z_]([A-Za-z0-9_]+)?\\b"
+		},
+		{
 			"name": "keyword.operator.colon.yume",
 			"match": ":"
 		},
@@ -239,23 +284,8 @@
 		}
 	],
 	"repository": {
-		"comments": {
-			"patterns": [
-				{
-					"name": "comment.line.double-exclamation.yume",
-					"match": "!!.*$"
-				},
-				{
-					"name": "comment.block.yum",
-					"begin": "!/",
-					"end": "/!",
-					"patterns": [
-						{
-							"include": "#comment-content"
-						}
-					]
-				}
-			]
+		"comment-content": {
+			"patterns": []
 		}
 	}
 }
