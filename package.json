@@ -10,16 +10,32 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "yume",
-      "aliases": ["Yume", "yume"],
-      "extensions": [".yum"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "yume",
-      "scopeName": "source.yume",
-      "path": "./syntaxes/yume.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "yume",
+        "aliases": [
+          "Yume",
+          "yume"
+        ],
+        "extensions": [
+          ".yum"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "yume",
+        "scopeName": "source.yume",
+        "path": "./syntaxes/yume.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandi37/Yume-pack"
   }
 }
