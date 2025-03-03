@@ -96,6 +96,11 @@
 			"name": "keyword.it.yume",
 			"match": "\\bit\\b"
 		},
+		
+		{
+			"name": "keyword.do.yume",
+			"match": "\\bdo\\b"
+		},
 		{
 			"name": "keyword.object.yume",
 			"match": "\\bobject\\b"
@@ -121,16 +126,8 @@
 			"match": "\\bas\\b"
 		},
 		{
-			"name": "keyword.modifier.out.yume",
-			"match": "\\bout\\b"
-		},
-		{
 			"name": "keyword.modifier.default.yume",
 			"match": "\\bdefault\\b"
-		},
-		{
-			"name": "keyword.modifier.must.yume",
-			"match": "\\bmust\\b"
 		},
 		{
 			"name": "keyword.modifier.fail.yume",
@@ -281,6 +278,11 @@
 		{
 			"name": "keyword.operator.dot.yume",
 			"match": "."
+		},
+		
+		{
+			"name": "keyword.operator.question.mark.yume",
+			"match": "\\?"
 		}
 	],
 	"repository": {
