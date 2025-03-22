@@ -130,6 +130,10 @@
 			"match": "\\bdefault\\b"
 		},
 		{
+			"name": "keyword.modifier.when.yume",
+			"match": "\\bwhen\\b"
+		},
+		{
 			"name": "keyword.modifier.fail.yume",
 			"match": "\\bfail\\b"
 		},
@@ -150,8 +154,8 @@
 			"match": "\\bzero\\b"
 		},
 		{
-			"name": "constant.language.nya.yume",
-			"match": "\\bnya\\b"
+			"name": "constant.language.nai.yume",
+			"match": "\\bnai\\b"
 		},
 		{
 			"name": "keyword.modifier.void.yume",
@@ -201,6 +205,11 @@
 			"name": "entity.name.type.uint.yume",
 			"match": "\\buint\\b"
 		},
+		
+		{
+			"name": "entity.name.type.byte.yume",
+			"match": "\\bbyte\\b"
+		},
 		{
 			"name": "entity.name.type.char.yume",
 			"match": "\\bchar\\b"
@@ -210,12 +219,12 @@
 			"match": "\\bstring\\b"
 		},
 		{
-			"name": "entity.name.type.neko.yume",
-			"match": "\\bneko\\b"
+			"name": "entity.name.type.kamo.yume",
+			"match": "\\bkamo\\b"
 		},
 		{
-			"name": "entity.name.type.koro.yume",
-			"match": "\\bkoro\\b"
+			"name": "entity.name.type.kekka.yume",
+			"match": "\\bkekka\\b"
 		},
 		{
 			"name": "constant.language.true.yume",
@@ -233,13 +242,15 @@
 			"name": "entity.name.type.error.yume",
 			"match": "\\berror\\b"
 		},
+		
 		{
-			"name": "entity.name.type.zeroize.yume",
-			"match": "\\bzeroize\\b"
+			"name": "entity.name.type.equal.yume",
+			"match": "\\bequal\\b"
 		},
+		
 		{
-			"name": "entity.name.tag.type.yume",
-			"match": "\\btype\\b"
+			"name": "entity.name.type.compare.yume",
+			"match": "\\bcompare\\b"
 		},
 		{
 			"name": "entity.name.type.float.yume",
