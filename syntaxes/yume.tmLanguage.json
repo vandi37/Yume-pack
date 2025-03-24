@@ -207,6 +207,16 @@
 			"name": "keyword.control.return.yume",
 			"match": "\\breturn\\b"
 		},
+		
+		{
+			"name": "keyword.control.exit.yume",
+			"match": "\\bexit\\b"
+		},
+		
+		{
+			"name": "keyword.control.panic.yume",
+			"match": "\\bpanic\\b"
+		},
 		{
 			"name": "keyword.control.try.yume",
 			"match": "\\btry\\b"
