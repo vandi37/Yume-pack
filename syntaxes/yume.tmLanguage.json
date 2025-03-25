@@ -98,13 +98,8 @@
 			"match": "\\benum\\b"
 		},
 		{
-			"name": "keyword.it.yume",
-			"match": "\\bit\\b"
-		},
-		
-		{
-			"name": "keyword.do.yume",
-			"match": "\\bdo\\b"
+			"name": "keyword.proc.yume",
+			"match": "\\bproc\\b"
 		},
 		{
 			"name": "keyword.object.yume",
