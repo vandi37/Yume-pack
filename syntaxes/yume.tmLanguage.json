@@ -204,6 +204,10 @@
 		},
 		
 		{
+			"name": "keyword.control.finally.yume",
+			"match": "\\bfinally\\b"
+		},
+		{
 			"name": "keyword.control.exit.yume",
 			"match": "\\bexit\\b"
 		},
