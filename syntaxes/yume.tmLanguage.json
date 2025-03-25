@@ -159,8 +159,8 @@
 			"match": "\\bzero\\b"
 		},
 		{
-			"name": "constant.language.nai.yume",
-			"match": "\\bnai\\b"
+			"name": "constant.language.null.yume",
+			"match": "\\bnull\\b"
 		},
 		{
 			"name": "keyword.modifier.void.yume",
@@ -243,12 +243,12 @@
 			"match": "\\bstring\\b"
 		},
 		{
-			"name": "entity.name.type.kamo.yume",
-			"match": "\\bkamo\\b"
+			"name": "entity.name.type.option.yume",
+			"match": "\\boption\\b"
 		},
 		{
-			"name": "entity.name.type.kekka.yume",
-			"match": "\\bkekka\\b"
+			"name": "entity.name.type.promise.yume",
+			"match": "\\bpromise\\b"
 		},
 		{
 			"name": "constant.language.true.yume",
@@ -283,6 +283,10 @@
 		{
 			"name": "entity.name.type.bool.yume",
 			"match": "\\bbool\\b"
+		},
+		{
+			"name": "entity.name.type.stringer.yume",
+			"match": "\\bstringer\\b"
 		},
 		{
 			"name": "support.type.import.yume",
