@@ -270,6 +270,12 @@
 			"name": "entity.name.type.equal.yume",
 			"match": "\\bequal\\b"
 		},
+
+		
+		{
+			"name": "entity.name.type.not.yume",
+			"match": "\\bnot\\b"
+		},
 		
 		{
 			"name": "entity.name.type.compare.yume",
