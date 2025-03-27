@@ -228,7 +228,6 @@
 			"name": "entity.name.type.uint.yume",
 			"match": "\\buint\\b"
 		},
-		
 		{
 			"name": "entity.name.type.byte.yume",
 			"match": "\\bbyte\\b"
@@ -257,6 +256,16 @@
 			"name": "constant.language.false.yume",
 			"match": "\\bfalse\\b"
 		},
+		
+		{
+			"name": "constant.language.nan.yume",
+			"match": "\\bnan\\b"
+		},
+		
+		{
+			"name": "constant.language.infinity.yume",
+			"match": "\\binfinity\\b"
+		},
 		{
 			"name": "entity.name.type.any.yume",
 			"match": "\\bany\\b"
@@ -265,18 +274,19 @@
 			"name": "entity.name.type.error.yume",
 			"match": "\\berror\\b"
 		},
-		
+		{
+			"name": "entity.name.type.type.yume",
+			"match": "\\btype\\b"
+		},
 		{
 			"name": "entity.name.type.equal.yume",
 			"match": "\\bequal\\b"
 		},
 
-		
 		{
 			"name": "entity.name.type.not.yume",
 			"match": "\\bnot\\b"
 		},
-		
 		{
 			"name": "entity.name.type.compare.yume",
 			"match": "\\bcompare\\b"
