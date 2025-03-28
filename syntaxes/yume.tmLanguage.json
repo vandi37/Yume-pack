@@ -138,6 +138,10 @@
 			"match": "\\bfail\\b"
 		},
 		{
+			"name": "keyword.modifier.with.yume",
+			"match": "\\bwith\\b"
+		},
+		{
 			"name": "keyword.modifier.adapt.yume",
 			"match": "\\badapt\\b"
 		},
